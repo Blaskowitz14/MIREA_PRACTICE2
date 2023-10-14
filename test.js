@@ -21,6 +21,7 @@ function BinarySearch(arr, value){
     }
     return -1;
 } 
+
 console.log(BinarySearch(mas, 2));
 //
 //
