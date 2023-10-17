@@ -22,6 +22,15 @@ function BinarySearch(arr, value){
     return -1;
 } 
 
+function linearSearch(arr, value){
+    while(i<arr.length){
+        if(value === arr[i]){
+            return i;
+        }
+        i++;
+    }
+}
+console.log(linearSearch(mas, 2));
 console.log(BinarySearch(mas, 2));
 //
 //
