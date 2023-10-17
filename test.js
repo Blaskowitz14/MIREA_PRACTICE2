@@ -1,6 +1,6 @@
 // алгоритм бинарного поиска. 
 let mas = [1,2,3,4,5,14,7,8,9,10];
-function BinarySearch(arr, value){
+function BinarySearchFinal(arr, value){ //переименована функция
     //границы поиска
     let start = -1;
     let end = arr.length;
